@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Text input -->
+  <input type="text" id="name" name="name" placeholder="e.g. Quincy Larson" size="20" minlength="5" maxlength="30"
+    required />
+
+  <!-- Number input -->
+  <input type="number" id="quantity" name="quantity" min="2" max="10" disabled />
+
+  <!-- Button -->
+  <input type="button" value="Show Alert" />
+  <form action="">
+    <label>
+      Full Name:
+      <input type="text" />
+    </label>
+  </form>
+  <!-- Radio group -->
+  <fieldset>
+    <legend>Was this your first time at our hotel?</legend>
+
+    <label for="yes-option">Yes</label>
+    <input id="yes-option" type="radio" name="hotel-stay" value="yes" />
+
+    <label for="no-option">No</label>
+    <input id="no-option" type="radio" name="hotel-stay" value="no" />
+  </fieldset>
+
+  <!-- Checkbox group -->
+  <fieldset>
+    <legend>
+      Why did you choose to stay at our hotel? (Check all that apply)
+    </legend>
+
+    <label for="location">Location</label>
+    <input type="checkbox" id="location" name="location" value="location" />
+
+    <label for="price">Price</label>
+    <input type="checkbox" id="price" name="price" value="price" />
+  </fieldset>
+  <table>
+    <caption>Exam Grades</caption>
+
+    <thead>
+      <tr>
+        <th>Last Name</th>
+        <th>First Name</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Davis</td>
+        <td>Alex</td>
+        <td>54</td>
+      </tr>
+
+      <tr>
+        <td>Doe</td>
+        <td>Samantha</td>
+        <td>92</td>
+      </tr>
+
+      <tr>
+        <td>Rodriguez</td>
+        <td>Marcus</td>
+        <td>88</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">Average Grade</td>
+        <td>78</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
